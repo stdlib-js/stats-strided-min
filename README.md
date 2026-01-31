@@ -48,13 +48,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import min from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-min@deno/mod.js';
+import min from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-min@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-min@deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-min@v0.1.0-deno/mod.js';
 ```
 
 #### min( N, x, strideX )
@@ -145,7 +145,7 @@ var v = min.ndarray( 4, x, 2, 1 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import min from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-min@deno/mod.js';
+import min from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-min@v0.1.0-deno/mod.js';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
